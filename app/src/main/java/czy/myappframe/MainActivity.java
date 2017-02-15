@@ -56,20 +56,20 @@ myview = (PieView) findViewById(R.id.my_view);
         });
 
 
-//        ServiceCreator.getInstance()
-//                .createService(DescService.class)
-//                .getdesc(new Request())
-//                .subscribe(new HttpResultSubscriber<List<DescInfo>>() {
-//                    @Override
-//                    public void onSuccess(List<DescInfo> descInfos) {
-//
-//                    }
-//
-//                    @Override
-//                    public void _onError(Throwable e) {
-//
-//                    }
-//                });
+        ServiceCreator.getInstance()
+                .createService(DescService.class)
+                .getdesc(new Request())
+                .subscribe(new HttpResultSubscriber<List<DescInfo>>() {
+                    @Override
+                    public void onSuccess(List<DescInfo> descInfos) {
+
+                    }
+
+                    @Override
+                    public void _onError(Throwable e) {
+
+                    }
+                });
 
 
 
