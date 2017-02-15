@@ -70,12 +70,6 @@ myview = (PieView) findViewById(R.id.my_view);
 
                     }
                 });
-
-
-
-
-
-
     }
 
     public void show(View view){
@@ -83,12 +77,6 @@ myview = (PieView) findViewById(R.id.my_view);
     }
     public void showWithMaskType(View view){
         mSVProgressHUD.showWithMaskType(SVProgressHUD.SVProgressHUDMaskType.None);
-//        mSVProgressHUD.showWithMaskType(SVProgressHUD.SVProgressHUDMaskType.Black);
-//        mSVProgressHUD.showWithMaskType(SVProgressHUD.SVProgressHUDMaskType.BlackCancel);
-//        mSVProgressHUD.showWithMaskType(SVProgressHUD.SVProgressHUDMaskType.Clear);
-//        mSVProgressHUD.showWithMaskType(SVProgressHUD.SVProgressHUDMaskType.ClearCancel);
-//        mSVProgressHUD.showWithMaskType(SVProgressHUD.SVProgressHUDMaskType.Gradient);
-//        mSVProgressHUD.showWithMaskType(SVProgressHUD.SVProgressHUDMaskType.GradientCancel);
     }
     public void showWithStatus(View view){
         mSVProgressHUD.showWithStatus("加载中...");
