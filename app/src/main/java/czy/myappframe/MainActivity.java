@@ -36,6 +36,10 @@ myview = (PieView) findViewById(R.id.my_view);
         list.add(new PieData(10,10));
         list.add(new PieData(40,40));
 
+
+
+
+
         myview.setData(list);
 
         mSVProgressHUD = new SVProgressHUD(this);
